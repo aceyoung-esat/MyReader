@@ -1,3 +1,4 @@
+# 📚 Reader V10: Lightweight Desktop EPUB Reader
 **Reader V10** is a sleek, distraction-free desktop application designed for reading EPUB books. It combines the flexibility of modern web rendering (Flask, HTML, CSS, JavaScript) with the convenience of a standalone desktop application interface using **pywebview**. The application features an aesthetic "sepia paper" theme, optimized for reading comfort.
 
 The core philosophy is simplicity and functionality: a minimalist library manager paired with a multi-column, paginated reader interface.
@@ -30,7 +31,7 @@ One of the most complex features of EPUB rendering is handling internal links (f
 Here is a visual representation of how this tooltip system is realized within the reader interface:
 
 <img width="1408" height="768" alt="image_0" src="https://github.com/user-attachments/assets/754c8c3d-89a8-4336-aad1-8562b070324c" />
-# 📚 Reader V10: Lightweight Desktop EPUB Reader
+![Visualisation of the Smart Footnote Tooltip](image_0.png)
 
 ### 📥 4. Library Management & Integrated Downloader
 * **Automatic Scanning:** The application scans a local `library` folder for `.epub` files on startup.
