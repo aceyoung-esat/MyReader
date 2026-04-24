@@ -6,7 +6,7 @@ The core philosophy is simplicity and functionality: a minimalist library manage
 
 ## ✨ Key Features & Implementation Details
 
-Here is a breakdown of what we have implemented in this version:
+Here is a breakdown of what have been implemented in this version:
 
 ### 📖 1. Advanced Reading Interface (Multi-Column Pagination)
 Implemented a web-based rendering engine within a native window to gain full control over typography and layout.
@@ -16,7 +16,7 @@ Implemented a web-based rendering engine within a native window to gain full con
     * *Implementation Note:* To maintain the user’s reading context when resizing, the application calculates the current reading progress percentage *before* resizing, then repositions the scroll *after* the resize to match that same percentage.
 
 ### 🖼️ 2. Comprehensive Media Support (EPUB Internal Routing)
-EPUB files are essentially zipped websites. We implement internal routing within the Flask backend to handle assets seamlessly.
+EPUB files are essentially zipped websites. Implemented internal routing within the Flask backend to handle assets seamlessly.
 
 * **Image Proxying (`/img_proxy`):** EPUBs use relative paths for images internally. The Flask backend includes an `/img_proxy/` route that extracts required images directly from the EPUB archive on-the-fly and serves them to the viewer.
 * **Library Book Covers:** The app automatically scans EPUB files for images containing "cover" in their filename. These are extracted, optimized, and converted to `.webp` for efficient loading in the main library grid view.
@@ -29,8 +29,8 @@ One of the most complex features of EPUB rendering is handling internal links (f
 
 Here is a visual representation of how this tooltip system is realized within the reader interface:
 
-<img width="1408" height="768" alt="image_0" src="https://github.com/user-attachments/assets/754c8c3d-89a8-4336-aad1-8562b070324c" /># 📚 Reader V10: Lightweight Desktop EPUB Reader
-![Visualisation of the Smart Footnote Tooltip]
+<img width="1408" height="768" alt="image_0" src="https://github.com/user-attachments/assets/754c8c3d-89a8-4336-aad1-8562b070324c" />
+# 📚 Reader V10: Lightweight Desktop EPUB Reader
 
 ### 📥 4. Library Management & Integrated Downloader
 * **Automatic Scanning:** The application scans a local `library` folder for `.epub` files on startup.
